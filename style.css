@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #161E45;
+  color: aliceblue;
+}
+
+#cerrarSesion {
+  display: none;
+}
+
+label {
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+input {
+  margin: 10px;
+  background-color: #161E45;
+  border-style: none;
+  border-bottom: solid 3px aliceblue;
+}
+
+button {
+  margin: 10px;
+  font-size: 1.2rem;
+  color: aliceblue;
+  background-color: #161E45;
+  border-style: none;
+  border: solid 2px aliceblue;
+  border-radius: 5px;
+  padding: 7px;
+  transition: 0.3s;
+}
+
+button:hover {
+  border: none;
+  background-color: aliceblue;
+  color: #161E45;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
